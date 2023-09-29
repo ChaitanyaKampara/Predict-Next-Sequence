@@ -51,4 +51,4 @@ PREDICTING NEXT SEQUENCE:
      * batch_size=64   : number of samples in each batch , update its weights after processing 64 training examples at a time.
      * epochs =100     : 1 fp + 1 bp ,  model will see training data 100 times during training.
      * validation_data : test data
-     * verbose : 1
+     * verbose : 1 ( used to see information when epochs are getting trained )
