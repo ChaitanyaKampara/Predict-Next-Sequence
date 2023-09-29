@@ -28,7 +28,7 @@ PREDICTING NEXT SEQUENCE:
 
 5.)  Creating the model:
      * Adding an LSTM layer to the model
-     * TIMESTEP :  It means that at each time step, the LSTM unit takes in the data from that specific point in the sequence and updates its state based on the current input and its previous state.
+     * TIMESTEP :  It means that at each time step , the LSTM unit takes in the data from that specific point in the sequence and updates its state based on the current input and its previous state.
  
      * (1)layers: 1.)   This is an import statement for Keras layers. 
                   2.)   Keras provides various layers for building neural networks, and "LSTM" is one of them.
@@ -51,3 +51,4 @@ PREDICTING NEXT SEQUENCE:
      * batch_size=64   : number of samples in each batch , update its weights after processing 64 training examples at a time.
      * epochs =100     : 1 fp + 1 bp ,  model will see training data 100 times during training.
      * validation_data : test data
+     * verbose : 1
