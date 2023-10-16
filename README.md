@@ -41,7 +41,7 @@ PREDICTING NEXT SEQUENCE:
 
      *layers.Dense(1) :  o/p contains 1 neuron
 
-6.) MODEL COMPILATION :
+6.) MODEL COMPILATION :-
  
      * optimizers = adjusts model's parameters optimizer's job is to minimize this loss function tunes the model to make it better at its task.
 
