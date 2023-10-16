@@ -26,7 +26,7 @@ PREDICTING NEXT SEQUENCE:
      * X => 7 COLUMNS ( [0,...,X-1] )
      * Y => 1 COLUMN  ( [X] )
 
-5.)  Creating the model:
+5.)  Creating the model:-
      * Adding an LSTM layer to the model
      * TIMESTEP :  It means that at each time step , the LSTM unit takes in the data from that specific point in the sequence and updates its state based on the current input and its previous state.
  
@@ -45,7 +45,7 @@ PREDICTING NEXT SEQUENCE:
  
      * optimizers = adjusts model's parameters optimizer's job is to minimize this loss function tunes the model to make it better at its task.
 
-7.) MODEL EVALUTION :
+7.) MODEL EVALUTION :-
 
      * X_train,y_train : training data
      * batch_size=64   : number of samples in each batch , update its weights after processing 64 training examples at a time.
