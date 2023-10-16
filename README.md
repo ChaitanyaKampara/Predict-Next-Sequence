@@ -13,7 +13,7 @@ PREDICTING NEXT SEQUENCE:
      
     * CREATE YOUR OWN DATASET
 
-3.) FUNCTION splitSequence(seq, n_steps):
+3.) FUNCTION splitSequence(seq, n_steps):-
  
     * 1st CRAETE EMPTY LIST OF X,Y
     * NEVER => "lastIndex > len(seq) - 1:"  (  lastIndex = i + n_steps )
