@@ -32,11 +32,11 @@ PREDICTING NEXT SEQUENCE:
      * (1)layers: 1.)   This is an import statement for Keras layers. 
                   2.)   Keras provides various layers for building neural networks, and "LSTM" is one of them.
 
-     * (2)50  :        No of LSTM neurons in this layer.
-     *(3)n_steps :    No of time steps in the sequence 
-     *ex         :    if n_steps= 3 => This means you'd create input sequences like [10, 20, 30], [20, 30, 40], [30, 40, 50],........
-     *(4)n_features : No of features at each time step.
-     *ex         :    Numerical 1 feature only
+     * (2)50  :       No of LSTM neurons in this layer.
+     * (3)n_steps :    No of time steps in the sequence 
+     * ex         :    if n_steps= 3 => This means you'd create input sequences like [10, 20, 30], [20, 30, 40], [30, 40, 50],........
+     * (4)n_features : No of features at each time step.
+     * ex         :    Numerical 1 feature only
 
      *layers.Dense(1) :  o/p contains 1 neuron
 
