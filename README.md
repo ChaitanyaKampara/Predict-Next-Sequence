@@ -15,7 +15,7 @@ PREDICTING NEXT SEQUENCE:
 
 3.) FUNCTION splitSequence(seq, n_steps):-
  
-    * 1st CRAETE EMPTY LIST OF X,Y
+    * 1st CRAETE EMPTY LIST OF X,Y 
     * NEVER => "lastIndex > len(seq) - 1:"  (  lastIndex = i + n_steps )
     * CREATE SEQ FOR i/p , o/p => [0,...,X-1] , [X]
     * APPEND THIS SEQ i/p , o/p to X,Y ( EMPTY LIST )
