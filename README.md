@@ -11,7 +11,7 @@ PREDICTING NEXT SEQUENCE:
  
 2.) DATASET :-  
      
-    * CREATE YOUR OWN DATASET
+    * CREATE YOUR OWN DATASET 
 
 3.) FUNCTION splitSequence(seq, n_steps):-
  
